@@ -125,7 +125,7 @@ Sample login credentials are available in `login.txt` for testing both apps:
 
 ## **👥 Team Zubedha**
 - **Chandu Geesala** - Developer 
-- **Manasshea ** - Designer
+- **Manasshea** - Designer
 
 ---
 
