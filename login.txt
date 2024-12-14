@@ -1,0 +1,9 @@
+Student Login:
+
+email: arjunreddy773143@gmail.com
+pass : 111111
+
+Admin Login:
+
+email: admin1@gmail.com
+pass : 222222
