@@ -104,12 +104,12 @@ FIREBASE_PROJECT_ID=<your-firebase-project-id>
 ### **Login Credentials**
 Sample login credentials are available in `login.txt` for testing both apps:
 
-  ```
+  
 
----
+
 
 ## **🌐 Folder Structure**
-- `lib/frontend/` - Flutter app code.
+- `lib/frontend/` - Flutter app code.(Cross platform for Web, Windows, Linux, IOS, TV ..)
 - `lib/backend/` - Firebase functions (if applicable).
 - `lib/docs/` - Documentation and assets.
 
