@@ -109,9 +109,9 @@ Sample login credentials are available in `login.txt` for testing both apps:
 ---
 
 ## **🌐 Folder Structure**
-- `frontend/` - Flutter app code.
-- `backend/` - Firebase functions (if applicable).
-- `docs/` - Documentation and assets.
+- `lib/frontend/` - Flutter app code.
+- `lib/backend/` - Firebase functions (if applicable).
+- `lib/docs/` - Documentation and assets.
 
 ---
 
@@ -123,9 +123,9 @@ Sample login credentials are available in `login.txt` for testing both apps:
 
 ---
 
-## **👥 Team**
-- **Your Name** - Developer & Designer
-- **Team Member Name (if any)** - Role (e.g., Backend Developer)
+## **👥 Team Zubedha**
+- **Chandu Geesala** - Developer 
+- **Manasshea ** - Designer
 
 ---
 
