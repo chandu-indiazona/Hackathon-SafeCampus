@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "980780633548",
+    "project_id": "indiazona-8c437",
+    "storage_bucket": "indiazona-8c437.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980780633548:android:a6856b6ad3ee799a652169",
+        "android_client_info": {
+          "package_name": "com.chandu.safecampus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980780633548-8hfipcs421fs67amc7aik708gpfar2tl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chandu.safecampus",
+            "certificate_hash": "e71268fbf5b2c8ef3b4ef6eca27ef46f13b0ed7f"
+          }
+        },
+        {
+          "client_id": "980780633548-ldnug1cpu1u5v0l58lsg1ak0446c1n0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC09D99-ooHFHfGdUT6FuhMSAG-GU3__Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980780633548-2gkipam9ob4tft85q9ijpeh45gilv2pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

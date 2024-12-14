@@ -1,0 +1,50 @@
+// build.gradle (App-level)
+plugins {
+    id "com.android.application"
+    id 'com.google.gms.google-services'  // Google services plugin
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"  // Flutter plugin
+}
+
+android {
+    namespace = "com.chandu.safecampus"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.chandu.safecampus"
+        minSdk 24
+        targetSdk 33
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug  // Add your own signing config for release
+        }
+    }
+}
+
+flutter {
+    source = "../.."  // Specify Flutter source directory
+}
+
+// Firebase BOM for version management
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:32.3.1')  // Firebase BOM (recommended)
+    implementation 'com.google.firebase:firebase-auth'  // Firebase Authentication
+    implementation 'com.google.firebase:firebase-firestore'  // Firebase Firestore (if using)
+    // Add other Firebase dependencies here if needed
+}
+
+apply plugin: 'com.google.gms.google-services'  // Apply the Google services plugin again
